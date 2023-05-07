@@ -9,4 +9,4 @@ Our HAL (Hardware Abstraction Layer) components build on top of the MCAL layer a
 
 Additionally, our repository offers a collection of libraries that provides extra functionality for the ATmega32, such as communication protocols, display drivers, and sensor interfaces. These libraries are modular and easy to integrate into your projects.
 
-Overall, our ATmega32 driver repository is a comprehensive resource for developers working with this microcontroller. While not all the drivers are ready to use, the repository serves as a useful guide for understanding what's going on, and provides the necessary tools and components to build high-quality, reliable software
+Overall, our ATmega32 drivers repository is a comprehensive resource for developers working with this microcontroller. While not all the drivers are ready to use, the repository serves as a useful guide for understanding what's going on, and provides the necessary tools and components to build high-quality, reliable software
