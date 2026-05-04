@@ -1,12 +1,7 @@
-# ATmega32-Drivers
-ATmega32 is a widely used microcontroller in embedded systems and IoT applications. To simplify development with this microcontroller, we've created a comprehensive repository of drivers, MCAL, HAL, and libraries for the ATmega32.
+# ATmega32 Drivers
 
-Our ATmega32 driver repository includes low-level software components that let you interact with the microcontroller's hardware, such as GPIO pins, timers, interrupts, and serial communication interfaces. These drivers are written in C and are optimized for efficiency, reliability, and ease of use.
+AVR drivers and a small library on top — GPIO, UART, SPI, TWI (I²C), ADC, timers, external interrupts, plus prebuilt modules for LCD, keypad, and 7-segment displays.
 
-Alongside the drivers, we've also included MCAL (Microcontroller Abstraction Layer) components that provide a hardware abstraction layer for the ATmega32. This layer makes it possible to write portable and reusable code that can be used with various microcontrollers and hardware platforms.
+The kind of code you reach for when you're prototyping a small embedded product on a Sunday and don't want to rebuild every peripheral driver from scratch. I used it during IEEE Zagazig sessions when teaching juniors — the API was deliberately verbose so the underlying register actually shows through.
 
-Our HAL (Hardware Abstraction Layer) components build on top of the MCAL layer and offer a higher-level interface for working with the ATmega32. These components provide an API that simplifies common tasks like setting up timers, reading and writing data to memory, and configuring peripherals.
-
-Additionally, our repository offers a collection of libraries that provides extra functionality for the ATmega32, such as communication protocols, display drivers, and sensor interfaces. These libraries are modular and easy to integrate into your projects.
-
-Overall, our ATmega32 drivers repository is a comprehensive resource for developers working with this microcontroller. While not all the drivers are ready to use, the repository serves as a useful guide for understanding what's going on, and provides the necessary tools and components to build high-quality, reliable software.
+Not actively maintained, but a few people from the branch still fork it as a starting point.
